@@ -19,7 +19,7 @@ non-code-related assets used by program:
         An image file used as the background for the main screen.
 	    
     - logo.png
-		An image file used as the logo on the main screen page.
+	An image file used as the logo on the main screen page.
 
     - icon.png
-		An image file used as the logo for notifications in the game.
+	An image file used as the logo for notifications in the game.
