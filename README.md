@@ -4,7 +4,7 @@
 **_Note:_** Coming Soon!
 
 #### Description:
-A simple Java implementation of the original game with a small twist. With the special tiles mode, players can set traps for each other and spice up the gameplay! You can create your own trap tiles by editing the source above or just use the default ones created. Click the "how to play" button on the in-game welcome screen or see assets/manual.pdf for more details on the default special tiles included.
+A simple Java implementation of the original game with a small twist. With the special tiles mode, players can set traps for each other and spice up the gameplay! You can create your own trap tiles by editing the source above or just use the default ones created. Click the "how to play" button on the in-game welcome screen or see [here](https://github.com/a-rey/scrabble/blob/master/assets/manual.pdf) for more details on the default special tiles included.
 
 To receive the completely packaged application, visit the links above. Enjoy!
 
