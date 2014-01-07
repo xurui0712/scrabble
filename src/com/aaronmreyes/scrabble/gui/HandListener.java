@@ -7,7 +7,7 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.gui;
+package com.aaronmreyes.scrabble.gui;
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;
@@ -18,7 +18,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
-import edu.cmu.andrew.areyes.scrabble.core.Game;
+import com.aaronmreyes.scrabble.core.Game;
 
 /**
  * The ActionListener for a hand tile that is used to update the border around a

@@ -7,7 +7,7 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.gui;
+package com.aaronmreyes.scrabble.gui;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -28,8 +28,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
-import edu.cmu.andrew.areyes.scrabble.Main;
-import edu.cmu.andrew.areyes.scrabble.core.Game;
+import com.aaronmreyes.scrabble.Main;
+import com.aaronmreyes.scrabble.core.Game;
 
 /**
  * This class is used at the start of the scrabble application to get the

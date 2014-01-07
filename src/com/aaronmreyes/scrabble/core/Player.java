@@ -7,13 +7,13 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.core;
+package com.aaronmreyes.scrabble.core;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbstractTile;
+import com.aaronmreyes.scrabble.core.tiles.AbstractTile;
 
 /**
  * The player class which contains various public getter methods used by the GUI

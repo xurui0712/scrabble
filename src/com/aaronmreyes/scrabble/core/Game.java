@@ -7,16 +7,16 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.core;
+package com.aaronmreyes.scrabble.core;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbstractTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.NegativePointTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.NormalTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.StealWordTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbstractTile.color;
+import com.aaronmreyes.scrabble.core.tiles.AbstractTile;
+import com.aaronmreyes.scrabble.core.tiles.NegativePointTile;
+import com.aaronmreyes.scrabble.core.tiles.NormalTile;
+import com.aaronmreyes.scrabble.core.tiles.StealWordTile;
+import com.aaronmreyes.scrabble.core.tiles.AbstractTile.color;
 
 /**
  * The Game class which contains all methods needed by the GUI to react to

@@ -7,7 +7,7 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble;
+package com.aaronmreyes.scrabble;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -29,9 +29,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
-import edu.cmu.andrew.areyes.scrabble.core.Game;
-import edu.cmu.andrew.areyes.scrabble.gui.GamePanel;
-import edu.cmu.andrew.areyes.scrabble.gui.GameSetup;
+import com.aaronmreyes.scrabble.core.Game;
+import com.aaronmreyes.scrabble.gui.GamePanel;
+import com.aaronmreyes.scrabble.gui.GameSetup;
 
 /**
  * This is the main entry point to the scrabble application.
@@ -127,19 +127,19 @@ public class Main {
 				if (Desktop.isDesktopSupported()) {
 					try {
 						/* get the pdf */
-						InputStream manuel = Main.class.getResourceAsStream("/assets/manuel.pdf");
+						InputStream manual = Main.class.getResourceAsStream("/assets/manual.pdf");
 			            /* make temp file */
 			            String tempFile = "scrabble";
 			            File temp = File.createTempFile(tempFile, ".pdf");
 			            /* write the pdf data to the temp file */
 			            FileOutputStream fos = new FileOutputStream(temp);
-			            while (manuel.available() > 0) {
-			            	fos.write(manuel.read());
+			            while (manual.available() > 0) {
+			            	fos.write(manual.read());
 			            }
 			            fos.flush();
 			            fos.close();
-			            manuel.close();
-			            /* now the OS can open the manuel */
+			            manual.close();
+			            /* now the OS can open the manual */
 						Desktop.getDesktop().open(temp);
 					} catch (IOException ex) {
 						/* no application registered for PDFs */

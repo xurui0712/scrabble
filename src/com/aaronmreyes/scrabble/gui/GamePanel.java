@@ -7,7 +7,7 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.gui;
+package com.aaronmreyes.scrabble.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -33,13 +33,13 @@ import javax.swing.SwingUtilities;
 import javax.swing.border.Border;
 import javax.swing.border.EtchedBorder;
 
-import edu.cmu.andrew.areyes.scrabble.Main;
-import edu.cmu.andrew.areyes.scrabble.core.Game;
-import edu.cmu.andrew.areyes.scrabble.core.Player;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbilityTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbstractTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.NormalTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbstractTile.color;
+import com.aaronmreyes.scrabble.Main;
+import com.aaronmreyes.scrabble.core.Game;
+import com.aaronmreyes.scrabble.core.Player;
+import com.aaronmreyes.scrabble.core.tiles.AbilityTile;
+import com.aaronmreyes.scrabble.core.tiles.AbstractTile;
+import com.aaronmreyes.scrabble.core.tiles.NormalTile;
+import com.aaronmreyes.scrabble.core.tiles.AbstractTile.color;
 
 /**
  * GUI class used to run the main game panel with board, player info and player

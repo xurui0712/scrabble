@@ -7,9 +7,9 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.core;
+package com.aaronmreyes.scrabble.core;
 
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbstractTile;
+import com.aaronmreyes.scrabble.core.tiles.AbstractTile;
 
 /**
  * Class that acts as a struct to contain a given (row, col) coordinate on the

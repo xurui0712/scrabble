@@ -7,13 +7,13 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.core.tiles;
+package com.aaronmreyes.scrabble.core.tiles;
 
 import java.util.List;
 
-import edu.cmu.andrew.areyes.scrabble.core.Game;
-import edu.cmu.andrew.areyes.scrabble.core.Location;
-import edu.cmu.andrew.areyes.scrabble.core.Player;
+import com.aaronmreyes.scrabble.core.Game;
+import com.aaronmreyes.scrabble.core.Location;
+import com.aaronmreyes.scrabble.core.Player;
 
 /**
  * Class that contains all information of any given tile on the scrabble board.

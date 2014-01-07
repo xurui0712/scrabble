@@ -1,5 +1,5 @@
 /*
- * LoseWordTile.java
+ * StealWordTile.java
  * Version: 1.0
  * Date: 22 Oct 2013
  * Author: Aaron M. Reyes
@@ -7,24 +7,24 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.core.tiles;
+package com.aaronmreyes.scrabble.core.tiles;
 
 import java.util.List;
 
-import edu.cmu.andrew.areyes.scrabble.core.Location;
-import edu.cmu.andrew.areyes.scrabble.core.Player;
+import com.aaronmreyes.scrabble.core.Location;
+import com.aaronmreyes.scrabble.core.Player;
 
 /**
- * Lose-a-Word: The player who activates this tile loses her current turn. The
- * word that activated this tile is not scored.
+ * Steal-a-word: The player who activates this tile does not gain any points.
+ * Instead all other players get the value of the word.
  * 
  * @author Aaron Reyes
  * 
  */
-public class LoseWordTile extends AbstractTile {
+public class StealWordTile extends AbstractTile {
 
 	/**
-	 * Constructor method to set up the information of a lose-word tile
+	 * Constructor method to set up the information of a steal-word tile
 	 * 
 	 * @param value
 	 *            - the ASCII value of the tile
@@ -35,13 +35,18 @@ public class LoseWordTile extends AbstractTile {
 	 * @param color
 	 *            - the color in {@link colors} of a given tile for the GUI
 	 */
-	public LoseWordTile(char value, int points, Location loc, color color) {
+	public StealWordTile(char value, int points, Location loc, color color) {
 		super(value, points, loc, color);
 	}
 
 	@Override
 	public int doAbility(List<Player> players, int score) {
-		/* do nothing. don't add the move's score to player */
+		/* if it is not a given player's turn, give them points */
+		for (Player player : players) {
+			if (!player.getTurn()) {
+				player.changeScore(score);
+			}
+		}
 		return 0;
 	}
 

@@ -7,7 +7,7 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.core;
+package com.aaronmreyes.scrabble.core;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -15,9 +15,9 @@ import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbilityTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbstractTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.NormalTile;
+import com.aaronmreyes.scrabble.core.tiles.AbilityTile;
+import com.aaronmreyes.scrabble.core.tiles.AbstractTile;
+import com.aaronmreyes.scrabble.core.tiles.NormalTile;
 
 /**
  * This class is used to perform validations on a given word that a given play

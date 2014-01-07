@@ -7,7 +7,7 @@
  * This content is released under the (http://opensource.org/licenses/MIT) MIT License.
  */
 
-package edu.cmu.andrew.areyes.scrabble.core;
+package com.aaronmreyes.scrabble.core;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -18,18 +18,18 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Random;
 
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbilityTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbstractTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.DoubleLetter;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.DoubleWord;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.LetterBombTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.LoseWordTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.NegativePointTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.NormalTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.StealWordTile;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.TripleLetter;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.TripleWord;
-import edu.cmu.andrew.areyes.scrabble.core.tiles.AbstractTile.color;
+import com.aaronmreyes.scrabble.core.tiles.AbilityTile;
+import com.aaronmreyes.scrabble.core.tiles.AbstractTile;
+import com.aaronmreyes.scrabble.core.tiles.DoubleLetter;
+import com.aaronmreyes.scrabble.core.tiles.DoubleWord;
+import com.aaronmreyes.scrabble.core.tiles.LetterBombTile;
+import com.aaronmreyes.scrabble.core.tiles.LoseWordTile;
+import com.aaronmreyes.scrabble.core.tiles.NegativePointTile;
+import com.aaronmreyes.scrabble.core.tiles.NormalTile;
+import com.aaronmreyes.scrabble.core.tiles.StealWordTile;
+import com.aaronmreyes.scrabble.core.tiles.TripleLetter;
+import com.aaronmreyes.scrabble.core.tiles.TripleWord;
+import com.aaronmreyes.scrabble.core.tiles.AbstractTile.color;
 
 /**
  * The class that contains all functionality required to handle operations on
