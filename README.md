@@ -1,7 +1,9 @@
 #Scrabble
 #### Final Product Downloads:
 
-**_Note:_** Coming Soon!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Macintosh](http://www.andrew.cmu.edu/user/areyes/files/Scrabble.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows (Comming Soon!)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linux (Comming Soon!)
+
+**_Note:_** All downloads require a 64-bit operating system
 
 #### Description:
 A simple Java implementation of the original game with a small twist. With the special tiles mode, players can set traps for each other and spice up the gameplay! You can create your own trap tiles by editing the source code above or just use the default ones created. Click the "how to play" button on the in-game welcome screen or  [click here](https://github.com/a-rey/scrabble/blob/master/assets/manual.pdf) for more details on the default special tiles included.
