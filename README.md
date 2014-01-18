@@ -1,7 +1,7 @@
 #Scrabble
 #### Final Product Downloads:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Macintosh](http://www.andrew.cmu.edu/user/areyes/files/Scrabble.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows (Comming Soon!)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linux (Comming Soon!)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Macintosh](http://www.andrew.cmu.edu/user/areyes/files/Scrabble.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Windows](http://www.andrew.cmu.edu/user/areyes/files/scrabble.zip)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linux (Comming Soon!)
 
 **_Note:_** All downloads require a 64-bit operating system
 
